@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DenNice-cloud/AdversterX.git/static/css/main.e4d9ce0d.css",
-    "main.js": "/DenNice-cloud/AdversterX.git/static/js/main.1b16f2f5.js",
-    "static/media/Sales Launch For COOKFOX's 25 Park Row in Financial District, New Renderings Released - New York YIMBY 1.jfif": "/DenNice-cloud/AdversterX.git/static/media/Sales Launch For COOKFOX's 25 Park Row in Financial District, New Renderings Released - New York YIMBY 1.760c5c3cf7300fbcbc83.jfif",
-    "static/media/Step-Sister.png": "/DenNice-cloud/AdversterX.git/static/media/Step-Sister.af6405d3875834929cbd.png",
-    "static/media/bg-main_warning-2.png": "/DenNice-cloud/AdversterX.git/static/media/bg-main_warning-2.31d9e465791a70943542.png",
-    "static/media/NoFearHere3_628d2b6e68e60.png": "/DenNice-cloud/AdversterX.git/static/media/NoFearHere3_628d2b6e68e60.d6b494d7defe88201448.png",
-    "static/media/bg-main_warning-1.png": "/DenNice-cloud/AdversterX.git/static/media/bg-main_warning-1.0b6ed637dab3b7adaffa.png",
-    "static/media/bg-main_page-2.png": "/DenNice-cloud/AdversterX.git/static/media/bg-main_page-2.a32dfa563a719b73d39a.png",
-    "static/media/Famous-Celebrity.png": "/DenNice-cloud/AdversterX.git/static/media/Famous-Celebrity.2996d7205b456a7aefeb.png",
-    "static/media/bg-main_page-1.png": "/DenNice-cloud/AdversterX.git/static/media/bg-main_page-1.770ebfa9d77de5db27d3.png",
-    "static/media/muted.svg": "/DenNice-cloud/AdversterX.git/static/media/muted.b8a946734eee014ef010c4a5ea7a5781.svg",
-    "static/media/sound.svg": "/DenNice-cloud/AdversterX.git/static/media/sound.8c2335236d6910d5a05badba16939a83.svg",
-    "index.html": "/DenNice-cloud/AdversterX.git/index.html",
-    "main.e4d9ce0d.css.map": "/DenNice-cloud/AdversterX.git/static/css/main.e4d9ce0d.css.map",
-    "main.1b16f2f5.js.map": "/DenNice-cloud/AdversterX.git/static/js/main.1b16f2f5.js.map"
+    "main.css": "/AdversterX/static/css/main.172ec45e.css",
+    "main.js": "/AdversterX/static/js/main.35188fe5.js",
+    "static/media/Sales Launch For COOKFOX's 25 Park Row in Financial District, New Renderings Released - New York YIMBY 1.jfif": "/AdversterX/static/media/Sales Launch For COOKFOX's 25 Park Row in Financial District, New Renderings Released - New York YIMBY 1.760c5c3cf7300fbcbc83.jfif",
+    "static/media/Step-Sister.png": "/AdversterX/static/media/Step-Sister.af6405d3875834929cbd.png",
+    "static/media/bg-main_warning-2.png": "/AdversterX/static/media/bg-main_warning-2.31d9e465791a70943542.png",
+    "static/media/NoFearHere3_628d2b6e68e60.png": "/AdversterX/static/media/NoFearHere3_628d2b6e68e60.d6b494d7defe88201448.png",
+    "static/media/bg-main_warning-1.png": "/AdversterX/static/media/bg-main_warning-1.0b6ed637dab3b7adaffa.png",
+    "static/media/bg-main_page-2.png": "/AdversterX/static/media/bg-main_page-2.a32dfa563a719b73d39a.png",
+    "static/media/Famous-Celebrity.png": "/AdversterX/static/media/Famous-Celebrity.2996d7205b456a7aefeb.png",
+    "static/media/bg-main_page-1.png": "/AdversterX/static/media/bg-main_page-1.770ebfa9d77de5db27d3.png",
+    "static/media/muted.svg": "/AdversterX/static/media/muted.b8a946734eee014ef010c4a5ea7a5781.svg",
+    "static/media/sound.svg": "/AdversterX/static/media/sound.8c2335236d6910d5a05badba16939a83.svg",
+    "index.html": "/AdversterX/index.html",
+    "main.172ec45e.css.map": "/AdversterX/static/css/main.172ec45e.css.map",
+    "main.35188fe5.js.map": "/AdversterX/static/js/main.35188fe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d9ce0d.css",
-    "static/js/main.1b16f2f5.js"
+    "static/css/main.172ec45e.css",
+    "static/js/main.35188fe5.js"
   ]
 }
