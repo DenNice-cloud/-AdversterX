@@ -1,0 +1,31 @@
+.transparent-button {
+  min-width: 235px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 32px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s ease;
+
+  &--name {
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &:hover {
+    background: #373737;
+    font-size: 24px;
+    box-shadow: 4px 4px 20px 0px #ffffff66;
+  }
+}
+
+@media (max-width: 720px) {
+  .transparent-button {
+    font-size: 24px;
+  }
+}

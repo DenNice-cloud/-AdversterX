@@ -1,0 +1,35 @@
+.button {
+  min-width: 235px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
+  font-size: 32px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s ease;
+
+  box-shadow: 4px 4px 20px 0px #ffffff66;
+
+  &--name {
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &:hover {
+    box-shadow: 8px 8px 10px 0px #00000066 inset;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 720px) {
+  .button {
+    font-size: 24px;
+
+    &::before {
+      display: none;
+    }
+  }
+}
