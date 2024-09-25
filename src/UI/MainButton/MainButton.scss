@@ -13,6 +13,7 @@
 
   box-shadow: 4px 4px 20px 0px #ffffff66;
 
+  height: 64px;
   &--name {
     font-weight: 700;
     color: #fff;
@@ -27,9 +28,5 @@
 @media (max-width: 720px) {
   .button {
     font-size: 24px;
-
-    &::before {
-      display: none;
-    }
   }
 }

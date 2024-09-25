@@ -14,7 +14,7 @@ export const WarningBlock = ({ setCurrentPage }) => {
           to play the game.
         </div>
       </div>
-      
+
       <div className="main--warning-page__button">
         <MainButton
           buttonValue={`Ok, Continue`}
@@ -25,11 +25,13 @@ export const WarningBlock = ({ setCurrentPage }) => {
       <img
         src={SecondWarningPageGirl}
         className="main--warning-page__bg-second"
+        alt="Background for warning"
       />
 
       <img
         src={FirstWarningPageGirl}
         className="main--warning-page__bg-first"
+        alt="Background for warning"
       />
     </div>
   );

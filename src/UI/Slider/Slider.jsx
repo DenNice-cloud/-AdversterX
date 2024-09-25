@@ -21,9 +21,11 @@ const Slider = () => {
   return (
     <div className="slider">
       <div
-        className="arrow-button"
+        className="arrow"
         onClick={handlePrev}
-      ></div>
+      >
+        <div></div>
+      </div>
 
       <div className="slider__content">
         <div className="slider__image">
@@ -37,10 +39,12 @@ const Slider = () => {
       </div>
 
       <div
-        className="arrow-button"
+        className="arrow"
         style={{ transform: "rotate(180deg)" }}
         onClick={handleNext}
-      ></div>
+      >
+        <div></div>
+      </div>
     </div>
   );
 };

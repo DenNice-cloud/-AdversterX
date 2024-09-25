@@ -11,7 +11,7 @@ const SoundButton = () => {
   };
 
   return (
-    <div className="sound-button" onClick={handleToggle}>
+    <div className={`sound-button ${isMuted ? "muted" : ""}`} onClick={handleToggle}>
       <img src={isMuted ? MutedIcon : SoundIcon} alt="Sound Icon" />
     </div>
   );

@@ -1,7 +1,6 @@
-.arrow-button {
+.arrow {
   width: 88px;
   height: 88px;
-
   border-radius: 50%;
   background: linear-gradient(103.39deg, #ffe53b -32.17%, #ff2525 114.07%);
   font-size: 32px;
@@ -12,19 +11,67 @@
   align-items: center;
   position: relative;
 
-  &::after {
-    position: absolute;
-    content: "";
-    width: 92px;
-    height: 15px;
-    left: 40%;
-    background-image: url("../../images/Arrow.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
   &:hover {
     box-shadow: 0 0 8px 6px #00000040 inset;
+  }
+}
+
+.arrow div {
+  position: relative;
+  left: 40px;
+  width: 90px;
+  height: 6px;
+  background-color: white;
+  display: block;
+}
+
+.arrow div::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 5px;
+  top: -7px;
+  right: 71px;
+  border-radius: 25px;
+  background-color: white;
+  transform: rotate(-45deg);
+}
+
+.arrow div::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 5px;
+  top: 8px;
+  right: 71px;
+  border-radius: 25px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 720px) {
+  .arrow {
+    width: 45px;
+    height: 45px;
+  }
+
+  .arrow div {
+    left: 20px;
+    height: 3px;
+    width: 30px;
+  }
+
+  .arrow div::after {
+    width: 15px;
+    height: 3px;
+    right: 19px;
+    top: -4.5px;
+  }
+
+  .arrow div::before {
+    width: 15px;
+    height: 3px;
+    right: 19px;
+    top: 4.8px;
   }
 }
